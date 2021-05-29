@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mva2.androidfilehost.com/dl/xDAOejLbakZ4IbwbnH89FA/1622376000/2188818919693807095/Nusantara_v2.9-11-raphael-18052021-OFFICIAL-1918.zip
+  ROM_URL: <your rom's direct link>
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
@@ -46,7 +46,7 @@ jobs:
        
        - name: Downloading rom and building A Only GSI
          if: env.BUILD_AONLY == 'true'
-         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME
+         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME -d
        
        - name: 7zipping Aonly GSI
          if: env.BUILD_AONLY == 'true'
