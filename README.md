@@ -1,8 +1,8 @@
 # GSI-builder
-Generic System Image builder using Erfan tools
-Requirements:
+-Generic System Image builder using Erfan tools.
+-Requirements:
 updating
-Tutorials:
+-Tutorials:
 updating
-Support:
+-Support:
 idfc
