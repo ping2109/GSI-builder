@@ -5,10 +5,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: your rom's direct link
-  ROM_NAME: Generic
+  ROM_LINK: your rom's direct link
+  ROM_TYPE: Generic
   BUILD_AB: true
-  BUILD_Aonly: false
+  BUILD_AONLY: false
   ROM_AONLY: A.7z
   ROM_AB: AB.7z
 
@@ -46,7 +46,7 @@ jobs:
        
        - name: Downloading rom and building A Only GSI
          if: env.BUILD_AONLY == 'true'
-         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_URL $ROM_NAME -d
+         run: sudo ./ErfanGSIs/url2GSI.sh -a $ROM_LINK $ROM_TYPE -d
        
        - name: 7zipping Aonly GSI
          if: env.BUILD_AONLY == 'true'
@@ -64,7 +64,7 @@ jobs:
          
        - name: Downloading rom and building A/B GSI
          if: env.BUILD_AB == 'true'
-         run: sudo ./ErfanGSIs/url2GSI.sh -b $ROM_URL $ROM_NAME -d
+         run: sudo ./ErfanGSIs/url2GSI.sh -b $ROM_LINK $ROM_TYPE -d
 
        - name: 7zipping AB GSI
          if: env.BUILD_AB == 'true'
