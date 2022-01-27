@@ -21,6 +21,7 @@ jobs:
          uses: actions/checkout@master
 
        - name: Clearing stuff...
+         continue-on-error: true
          run: |
            docker rmi `docker images -q`
            sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d
