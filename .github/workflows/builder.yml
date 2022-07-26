@@ -5,13 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_LINK: your rom's direct link
-  ROM_LINK: https://downloads.sourceforge.net/project/kevios12a40roms/RELEASE/evolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip?ts=gAAAAABhSKfwG2QmwbDIWKLOsgwwVZpzfw45QWhlvk2t-51g5yZWGXMnwAyLCRp3mGdunmuAJJO_fBy4HdKWcfKfI9YvuCEywg%3D%3D&use_mirror=autoselect&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkevios12a40roms%2Ffiles%2FRELEASE%2Fevolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip%2Fdownload
-  ROM_TYPE: Generic
+  ROM_LINK: https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/22.7.21/xiaomi.eu_multi_HMNote94G_HM9T_22.7.21_v13-12.zip/download
+  ROM_TYPE: MIUI
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: A.7z
-  ROM_AB: AB.7z
+  ROM_AB: MIUI_22.X_A12_GSI_FERRISROMS.7z
 jobs:
   build:
     runs-on: ubuntu-latest
