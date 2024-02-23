@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_LINK: your rom's direct link
-  ROM_LINK: https://downloads.sourceforge.net/project/kevios12a40roms/RELEASE/evolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip?ts=gAAAAABhSKfwG2QmwbDIWKLOsgwwVZpzfw45QWhlvk2t-51g5yZWGXMnwAyLCRp3mGdunmuAJJO_fBy4HdKWcfKfI9YvuCEywg%3D%3D&use_mirror=autoselect&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkevios12a40roms%2Ffiles%2FRELEASE%2Fevolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip%2Fdownload
+  ROM_LINK: https://dl.pixelexperience.org/OmqSziDMDzTWAxU--OahPOv6q5cwtArYHbnWLlSkppA4uW4pHLirgs71Wflz-N_w9oqoWJIQS6xVrY0foIIUr3fDixR5m9B08qWzwi8wCNo=/PixelExperience_Plus_begonia-12.1-20220829-2040-OFFICIAL.zip
+  ROM_LINK: https://dl.pixelexperience.org/OmqSziDMDzTWAxU--OahPOv6q5cwtArYHbnWLlSkppA4uW4pHLirgs71Wflz-N_w9oqoWJIQS6xVrY0foIIUr3fDixR5m9B08qWzwi8wCNo=/PixelExperience_Plus_begonia-12.1-20220829-2040-OFFICIAL.zip
   ROM_TYPE: Generic
   BUILD_AB: true
   BUILD_AONLY: false
